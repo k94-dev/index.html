@@ -4,24 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href=""><img src="./img/logo.svg" alt="Логотип пекарні" /></a>
+        <a href="/index.html"
+          ><img src="./img/logo.svg" alt="Логотип пекарні"
+        /></a>
         <ul>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Шеф-кухарі</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a class="link" href="#traditions-section">Наші традиції</a></li>
+          <li><a class="link" href="#Chef-section">Шеф-кухарі</a></li>
+          <li><a class="link" href="#Format-section">Формати</a></li>
+          <li><a class="link" href="#contact-section">Контакти</a></li>
         </ul>
       </nav>
-      <button type="button">Замовити дзвінок</button>
+      <button class="button" type="button">Замовити дзвінок</button>
     </header>
     <main>
-      <section><h1>Сучасна пекарня</h1></section>
       <section>
-        <ul>
+        <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
+      </section>
+      <section id="traditions-section">
+        <ul class="advantages-list">
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
           <li>Досвідчена управлінська команда</li>
@@ -41,8 +46,8 @@
           alt="ПекарЧоловік дивиться на батони в вагоні і посміхається"
         />
       </section>
-      <section>
-        <h2>Наші найкращі шеф -кухарі</h2>
+      <section id="Chef-section">
+        <h2>Наші найкращі <span class="accent">шеф -кухарі</span></h2>
         <ul>
           <li>
             <article>
@@ -52,6 +57,7 @@
               <p>Я випічу для вас найсмачніщі вироби</p>
             </article>
           </li>
+
           <li>
             <article>
               <h3>Влад</h3>
@@ -65,30 +71,42 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section id="Format-section">
         <h2>Формати</h2>
         <ul>
           <li>
-            <article><h3>Walrus</h3></article>
+            <article><h3 lang="en">Walrus</h3></article>
           </li>
           <li>
-            <article><h3>Horseshoe</h3></article>
+            <article><h3 lang="en">Horseshoe</h3></article>
           </li>
           <li>
-            <article><h3>Handlebar</h3></article>
+            <article><h3 lang="en">Handlebar</h3></article>
           </li>
         </ul>
       </section>
-      <section><h2>Приєднуйся до мережі пекарень</h2></section>
+      <section id="contact-section">
+        <h2>Приєднуйся до мережі пекарень</h2>
+      </section>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.544446654038!2d30.487895676705275!3d50.45575264335137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfe995368e61%3A0x840d0c4c8b79f77f!2sVery%20Well%20Cafe!5e0!3m2!1sru!2sua!4v1734948421850!5m2!1sru!2sua"
+        width="603"
+        height="595"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </main>
     <footer>
       <nav>
-        <a href=""><img src="./img/logo.svg" alt="Логотип пекарні" /></a>
+        <a href="/index.html"
+          ><img src="./img/logo.svg" alt="Логотип пекарні"
+        /></a>
         <ul>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Шеф-кухарі</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a class="link" href="#traditions-section">Наші традиції</a></li>
+          <li><a class="link" href="#Chef-section">Шеф-кухарі</a></li>
+          <li><a class="link" href="#Format-section">Формати</a></li>
+          <li><a class="link" href="#contact-section">Контакти</a></li>
         </ul>
       </nav>
       <address>
@@ -98,8 +116,8 @@
             <a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a>
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/gNDPt8rahDq5C1zV7" target="_blank">
-              Україна, м. Київ, вул. Січових Стрільців 54
+            <a href="https://maps.app.goo.gl/JGEr6ogrkBi6JynP6" target="_blank">
+              Україна, м. Київ, вул. Вячеслава Чорновола, 29
             </a>
           </li>
           <li>
@@ -110,7 +128,7 @@
           </li>
         </ul>
         <li><a href="" target="_blank">Політика конфіденційності</a></li>
-        <p>© 2024 Дані захищені</p>
+        <p>&copy; 2024 Дані захищені</p>
       </address>
     </footer>
   </body>
